@@ -1,0 +1,2 @@
+mae,rmse,mape,extreme_mae,extreme_rmse,directional_accuracy,peak_accuracy,forecast_bias,theil_u,pearson_correlation,spearman_correlation
+0.25083247,0.4660591,6491.368103027344,1.5624853,1.5820388,0.43150399677571033,1.0,-0.026112616,1.2148584,0.7658566097008117,0.8256597525157504
