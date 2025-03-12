@@ -187,7 +187,7 @@ python experiments/evaluate.py --checkpoint checkpoints/model_best.pth
 ## 维护者
 - 项目作者：李宇彤
 - 联系方式：338959685@qq.com
-- 项目主页：https://github.com/yourusername/TSF-ARMA
+- 项目主页：https://github.com/numbis-li/TSF-ARMA
 
 ## 许可证
 本项目采用 MIT 许可证。详见 [LICENSE](LICENSE) 文件。
