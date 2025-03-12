@@ -370,13 +370,3 @@ def create_evaluation_report(model_name: str,
     
     print(f"评估报告已保存至: {report_path}")
     return report_path
-
-def plot_ablation_study(results: dict):
-    """消融实验可视化"""
-    # 实现AR/MA分支的独立效果对比
-    # 生成类似论文中的消融分析图
-
-def visualize_attention(model, sample_data):
-    """注意力权重可视化"""
-    # 使用matplotlib绘制热力图
-    # 展示AR和MA分支的权重分配

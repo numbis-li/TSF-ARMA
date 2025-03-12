@@ -185,8 +185,8 @@ python experiments/evaluate.py --checkpoint checkpoints/model_best.pth
 - 优化采样策略
 
 ## 维护者
-- 项目作者：张三
-- 联系方式：zhangsan@example.com
+- 项目作者：李宇彤
+- 联系方式：338959685@qq.com
 - 项目主页：https://github.com/yourusername/TSF-ARMA
 
 ## 许可证

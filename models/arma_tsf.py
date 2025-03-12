@@ -475,7 +475,7 @@ class ARMATransformer(nn.Module):
         """获取MA分支的输出"""
         return self.attention._ma_branch(x)
 
-# # 使用示例
+# # 测试使用
 # if __name__ == "__main__":
 #     # 模型参数
 #     n_features = 7  # 输入特征维度
