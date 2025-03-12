@@ -44,4 +44,4 @@ results/visualizations/*.png
 
 # System
 .DS_Store
-Thumbs.db 
+Thumbs.db /data/Electricity/raw/electricity.txt
