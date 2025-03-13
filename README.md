@@ -59,7 +59,7 @@ pip install -r requirements.txt
 
 3. 数据准备
 ```python
-python data/electricity_data/preprocess.py
+python data/small_data/electricity_dataloader.py
 ```
 
 4. 训练模型
@@ -78,7 +78,7 @@ TSF-ARMA/
 ├── configs/            # 配置文件
 │   └── config.py      # 模型和训练配置
 ├── data/              # 数据目录
-│   └── electricity_data/
+│   └── small_data/
 ├── models/            # 模型实现
 │   ├── attention.py   # ARMA注意力机制
 │   └── arma_tsf.py    # 主模型架构
@@ -127,7 +127,7 @@ model_params = {
 ```
 
 ### 自定义数据
-1. 准备数据文件（CSV格式）
+1. 准备数据文件（CSV格式或txt）
 2. 修改 `data_loader.py` 中的数据加载逻辑
 3. 更新配置文件中的数据参数
 
@@ -186,7 +186,7 @@ python experiments/evaluate.py --checkpoint checkpoints/model_best.pth
 
 ## 维护者
 - 项目作者：李宇彤
-- 联系方式：338959685@qq.com
+- 联系方式：16692560959@163.com
 - 项目主页：https://github.com/numbis-li/TSF-ARMA
 
 ## 许可证
@@ -194,5 +194,5 @@ python experiments/evaluate.py --checkpoint checkpoints/model_best.pth
 
 ## 更新日志
 - 2024-03-11: 完成基础模型训练和评估
-- 2024-03-10: 实现 ARMA 注意力机制
-- 2024-03-09: 项目初始化 
+- 2024-03-08: 实现 ARMA 注意力机制
+- 2024-03-04: 项目初始化 
